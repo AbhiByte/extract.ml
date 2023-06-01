@@ -29,5 +29,5 @@ class ImageReader:
 
 if __name__ == '__main__':
     ir = ImageReader(OS.Mac)
-    text = ir.extract_text('images/test.png', Languages.ENG)
+    text = ir.extract_text('test_images/hello.png', Languages.ENG)
     print(text)
